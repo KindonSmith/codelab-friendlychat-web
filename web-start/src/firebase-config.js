@@ -7,7 +7,12 @@
  * 4. Copy the config object snippet, then add it here.
  */
 const config = {
-  /* TODO: ADD YOUR FIREBASE CONFIGURATION OBJECT HERE */
+  apiKey: "AIzaSyB0SWafR2aY4pvFCpe3K5jFhh_Nem6r6tQ",
+  authDomain: "limechat-6abce.firebaseapp.com",
+  projectId: "limechat-6abce",
+  storageBucket: "limechat-6abce.appspot.com",
+  messagingSenderId: "212940425779",
+  appId: "1:212940425779:web:40e1d6e51734c5d70eb146"
 };
 
 export function getFirebaseConfig() {
