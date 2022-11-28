@@ -79,7 +79,7 @@ function getUserName() {
 
 // Returns true if a user is signed-in.
 function isUserSignedIn() {
-  // TODO 6: Return true if a user is signed-in.
+  return !!getAuth().currentUser;
 }
 
 // Saves a new message on the Cloud Firestore.
